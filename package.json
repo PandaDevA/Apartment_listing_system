@@ -1,0 +1,20 @@
+{
+  "name": "project_apartment_list",
+  "version": "1.0.0",
+  "description": "This is Group 24 Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksharm3/Apartment_listing_system.git"
+  },
+  "author": "Omkar Sinha 10468312",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksharm3/Apartment_listing_system/issues"
+  },
+  "homepage": "https://github.com/ksharm3/Apartment_listing_system#readme"
+}
