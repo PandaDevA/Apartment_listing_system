@@ -1,20 +1,39 @@
 {
-  "name": "project_apartment_list",
-  "version": "1.0.0",
-  "description": "This is Group 24 Project",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ksharm3/Apartment_listing_system.git"
-  },
-  "author": "Omkar Sinha 10468312",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ksharm3/Apartment_listing_system/issues"
-  },
-  "homepage": "https://github.com/ksharm3/Apartment_listing_system#readme"
+    "name": "project_apartment_list",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "db": "mongod --bind_ip_all --port 8004 --dbpath ./dbdata",
+        "dev": "nodemon app.js",
+        "seed": "node tasks/seed.js"
+    },
+    "author": "Omkar Sinha 10468312",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ksharm3/Apartment_listing_system.git"
+    },
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.19.0",
+        "connect-mongo": "^3.2.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "express-ejs-layouts": "^2.5.0",
+        "express-flash": "0.0.2",
+        "express-session": "^1.17.1",
+        "moment": "^2.29.1",
+        "mongoose": "^5.12.3",
+        "request": "^2.88.2",
+        "util": "^0.12.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    },
+    "bugs": {
+      "url": "https://github.com/ksharm3/Apartment_listing_system/issues"
+    },
+    "homepage": "https://github.com/ksharm3/Apartment_listing_system#readme"
 }
